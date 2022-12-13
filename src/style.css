@@ -1,0 +1,26 @@
+.navbar{
+ background-color: #bbb;
+ padding: 15px 30px;
+}
+.navbar a{
+    margin: 15px;
+}
+.center{
+    text-align: center;
+}
+.table{
+    margin: 20px;
+    
+}
+.table tr{
+    padding: 5px;
+ display: flex;
+ justify-content: space-between;
+}
+.table td, th{
+    padding: 0 15px;
+}
+.text-center{
+    text-align: center;
+    color: red;
+}
