@@ -35,8 +35,9 @@ const ApiData = () => {
                 <p className='text-center'>Offline</p>
             )}
             {filteredData.length > 0 && (
+                <div style={{display: "flex", justifyContent: 'center'}}>
                 <table className='table'>
-                    <tr>
+                    <tr style={{backgroundColor: 'orange'}}>
                         <th colSpan={3} align='center'>Id</th>
                         <th colSpan={6} align='center'>Title</th>
                         <th colSpan={3} align='center'>Completed</th>
@@ -49,6 +50,7 @@ const ApiData = () => {
                         </tr>
                     )}
                 </table>
+                </div>
             )}
         </>
     )
